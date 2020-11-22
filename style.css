@@ -1,0 +1,56 @@
+/* css provisoire */
+
+div {
+	margin: 0 auto;
+	width: 1200px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	border: 2px solid black;
+}
+h1 {
+	font-size: 5em;
+	color: yellow;
+	margin-left: 100px;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding: 0 50px;
+
+}
+nav a {
+	text-decoration: none;
+}
+nav p{
+	color:yellow;
+}
+nav span{
+	color: white;
+}
+
+main {
+	height: 600px; /* uselless pr occuper l espace */
+	border:2px black solid;
+}
+footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: black;
+	padding: 0 50px;
+}
+footer p {
+	color: white;
+}
+footer a {
+text-decoration: none;
+}
+footer p:last-child {
+	color:yellow;
+}
